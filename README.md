@@ -1,4 +1,6 @@
 # Secure Chat Room Implementation
+# POSTMAN COLLECTION LINK: `https://www.postman.com/christtube/workspace/chatroom/collection/20945916-f2c0f0d1-31a3-4e0c-ae22-4f63c7e0485a?action=share&creator=20945916`
+
 
 ## Setup
 
@@ -16,6 +18,7 @@
 4. Run the application: `npm start`
 
 ## API Endpoints
+## Base URL:`http://localhost:3000`
 
 ### Auth
 - `POST /api/auth/register`: Register a new user
@@ -30,3 +33,6 @@
 
 ### Friend Requests
 - `POST /api/friend-requests`: Send a friend request
+
+### message:
+`POST  /api/messages:Send Messages`
